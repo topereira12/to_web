@@ -30,7 +30,6 @@
         <link rel="stylesheet" type="text/css" href="style/page.css"/> 
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300"/>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Share" />
-		<link rel="stylesheet" type="text/css" href="style/_style-switcher.css"/> 	
 
 		<link rel="stylesheet" type="text/css" media="screen and (min-width:0px) and (max-width:959px)" href="style/responsive/width-0-959.css"/> 
 		<link rel="stylesheet" type="text/css" media="screen and (min-width:0px) and (max-width:767px)" href="style/responsive/width-0-767.css"/> 
@@ -78,18 +77,18 @@
 			
 			<div class="header main box-center clear-fix">
 
-				<div class="layout-4060 clear-fix">
+				<div class="layout-7030 clear-fix">
 
-					<div class="layout-4060-left">	
-						<h1><a href="<?php $Cascade->_getURL('main'); ?>">Anna Brown</a> </h1>
-						<h5><a href="<?php $Cascade->_getURL('main'); ?>">professional photographer &amp; web developer</a></h5>	
+					<div class="layout-7030-left">	
+						<h1><a href="<?php $Cascade->_getURL('main'); ?>">António Pereira</a> </h1>
+						<h5><a href="<?php $Cascade->_getURL('main'); ?>">programador web</a></h5>	
 					</div>
 
-					<div class="layout-4060-right">
+					<div class="layout-7030-right">
 						<ul class="no-list header-menu clear-fix">
-							<li class="header-menu-download"><a href="#">Download my vCard</a></li>
-							<li class="header-menu-phone">1.800.353.252</li>
-							<li class="header-menu-mail"><a href="#">anna.brown@mail.com</a></li>
+							<!--<li class="header-menu-download"><a href="#">Download meu cv</a></li>-->
+							<li class="header-menu-phone">912759920</li>
+							<li class="header-menu-mail"><a href="#">to.pereira12@gmail.com</a></li>
 						</ul>
 					</div>			
 
@@ -110,32 +109,32 @@
                 <ul class="cascade-menu">
                     <li id="tab-1" class="blue-info">
                         <a href="<?php $Cascade->_getURL('about'); ?>">
-                            <span class="title">About</span>
-                            <span class="subtitle">About Me</span>
+                            <span class="title">Início</span>
+                            <span class="subtitle">Quem eu sou</span>
                         </a>
                     </li>
-                    <li id="tab-2" class="lime-camera">
+                    <li id="tab-2" class="lime-lightbulb">
                         <a href="<?php $Cascade->_getURL('portfolio'); ?>">
-                            <span class="title">Portfolio</span>
-                            <span class="subtitle">My Works</span>
+                            <span class="title">Percurso </span>
+                            <span class="subtitle">Experiência <br/>profissional</span>
                         </a>
                     </li>
                     <li id="tab-3" class="yellow-document">		
                         <a href="<?php $Cascade->_getURL('resume'); ?>">
-                            <span class="title">Resume</span>
-                            <span class="subtitle">Personal Profile</span>
+                            <span class="title">Formação</span>
+                            <span class="subtitle">Educação e Formação</span>
                         </a>
                     </li>
                     <li id="tab-4" class="green-people">		
                         <a href="<?php $Cascade->_getURL('interests'); ?>">
-                            <span class="title">My Interests</span>
-                            <span class="subtitle">Free time</span>
+                            <span class="title">Hobbys</span>
+                            <span class="subtitle">Tempos Livres</span>
                         </a>
                     </li>
                     <li id="tab-5" class="red-mail">		
                         <a href="<?php $Cascade->_getURL('contact'); ?>">
-                            <span class="title">Contact</span>
-                            <span class="subtitle">Get In Touch</span>
+                            <span class="title">Contacto</span>
+                            <span class="subtitle">Entre em contacto comigo</span>
                         </a>
                     </li>
                 </ul>
@@ -186,20 +185,18 @@
 
             <div class="main box-center layout-7030 clear-fix">
 
-                <!-- Latest tweets -->
+                <!-- Latest tweets 
                 <div class="layout-7030-left latest-tweets">
                     <div id="latest-tweets"></div>
-                </div>
+                </div>-->
                 <!-- /Latest tweets -->
 
                 <!-- Social icons -->
                 <div class="layout-7030-right">
 
                     <ul class="no-list social-list-1">
-                        <li>Connect</li>
-                        <li><a href="#" class="social-rss"></a></li>
-                        <li><a href="#" class="social-facebook"></a></li>
-                        <li><a href="#" class="social-twitter"></a></li>
+                        <li>Redes Sociais</li>
+                        <li><a href="#" class=""><img src="./image/social-icon/social_facebook.png"></a></li>
                         <li><a href="#" class="social-google"></a></li>
                         <li><a href="#" class="social-skype"></a></li>
                     </ul>
@@ -224,83 +221,6 @@
 			});
 			
 		</script>
-		
-		<!-- Style switcher -->
-		<div id="style-switcher">
-			
-			<div id="style-switcher-content">
-			
-				<div class="form-line">
-					<label>Tab #</label>
-					<select name="style-switcher-tab-number" id="style-switcher-tab-number">
-						<option value="0">- please select -</option>
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-					</select>
-				</div>
-
-				<div class="form-line">
-					<label>Tab color</label>
-					<select name="style-switcher-tab-color" id="style-switcher-tab-color">
-						<option value="0">- please select -</option>
-						<option value="red">red</option>
-						<option value="blue">blue</option>
-						<option value="lime">lime</option>
-						<option value="green">green</option>
-						<option value="orange">orange</option>
-						<option value="purple">purple</option>
-						<option value="yellow">yellow</option>
-						<option value="turquoise">turquoise</option>
-					</select>
-				</div>
-
-				<div class="form-line">
-					<label>Tab content</label>
-					<select name="style-switcher-tab-content" id="style-switcher-tab-content">
-						<option value="0">- please select -</option>
-						<option value="info">info</option>
-						<option value="mail">mail</option>
-						<option value="tick">tick</option>
-						<option value="arrow">arrow</option>
-						<option value="people">people</option>
-						<option value="basket">basket</option>
-						<option value="camera">camera</option>
-						<option value="document">document</option>
-						<option value="briefcase">briefcase</option>
-						<option value="lightbulb">lightbulb</option>
-						<option value="img-1">sample image #1</option>
-						<option value="img-2">sample image #2</option>
-						<option value="img-3">sample image #3</option>
-						<option value="img-4">sample image #4</option>
-					</select>
-				</div>
-
-				<div class="form-line">
-					<label>Header</label>
-					<select name="style-switcher-header" id="style-switcher-header">
-						<option value="0">- please select -</option>
-						<option value="grid">grid</option>
-						<option value="mesh">mesh</option>
-						<option value="wood">wood</option>
-						<option value="wood-2">wood 2</option>
-						<option value="wood-3">wood 3</option>
-						<option value="tiles">tiles</option>
-						<option value="carbon">carbon</option>
-						<option value="fibers">fibers</option>
-						<option value="stripes">stripes</option>
-						<option value="sandpaper">sandpaper</option>
-					</select>
-				</div>
-				
-			</div>
-			
-			<div id="style-switcher-close">-</div>
-
-		</div>
-		<!-- /Style switcher -->
 
     </body>
 
