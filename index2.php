@@ -80,7 +80,7 @@
 				<div class="layout-7030 clear-fix">
 
 					<div class="layout-7030-left">	
-						<h1><a href="<?php $Cascade->_getURL('main'); ?>">António Pereira</a> </h1>
+						<h1><a href="<?php $Cascade->_getURL('main'); ?>">António Pereiras</a> </h1>
 						<h5><a href="<?php $Cascade->_getURL('main'); ?>">programador web</a></h5>	
 					</div>
 
