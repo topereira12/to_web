@@ -134,7 +134,7 @@
                     <li id="tab-5" class="red-mail">		
                         <a href="<?php $Cascade->_getURL('contact'); ?>">
                             <span class="title">Contacto</span>
-                            <span class="subtitle">Entre em contacto comigo</span>
+                            <span class="subtitle">Onde me encontrar</span>
                         </a>
                     </li>
                 </ul>
@@ -192,13 +192,12 @@
                 <!-- /Latest tweets -->
 
                 <!-- Social icons -->
-                <div class="layout-7030-right">
+                <div class="layout-7030-left">
 
                     <ul class="no-list social-list-1">
-                        <li>Redes Sociais</li>
-                        <li><a href="#" class=""><img src="./image/social-icon/social_facebook.png"></a></li>
-                        <li><a href="#" class="social-google"></a></li>
-                        <li><a href="#" class="social-skype"></a></li>
+                        <li>© 2015 - A. Pereira Web Sites</li>
+                        <li>Todos os dieritos reservados</li>
+              
                     </ul>
                     
                 </div>

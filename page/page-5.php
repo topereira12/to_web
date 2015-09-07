@@ -1,18 +1,9 @@
-<?php 
-
-	$path=$_SERVER['SCRIPT_FILENAME'];
-
-	if(strcmp(basename($path),'index.php')==0) require_once(dirname($path).'/plugin/contact-form/config.php');
-	else require_once(dirname($path).'/../plugin/contact-form/config.php');
-
-       
-?>
 
 <div class="layout-50 page-4">
 
     <div class="layout-50-left">
 
-        <h3>No Mapa</h3>
+        <h3>Onde me encontrar</h3>
         <div id="map"></div>
 
         <h3 class="margin-top-30">António Pereira</h3>
@@ -30,39 +21,45 @@
     </div>
 
     <div class="layout-50-right">
-
-        <h3>Entre em contacto comigo</h3>
-
-        <form name="contact-form" id="contact-form" action="" method="post">
+<center>
+        <h3>Redes Sociais</h3>
 
             <div>
+            	<br/><br/>
 
-                <div class="form-line block">
-					<label for="contact-form-name" class="infield"><?php echo CONTACT_FORM_LABEL_DATA_NAME; ?></label>
-                    <input type="text" name="contact-form-name" id="contact-form-name" value=""/>	
+                <div class="form-line block box-center"><img src="./image/social-icon/facebook.png" width=40 height=40 /><br/>
+					<a class="social" href="https://www.facebook.com/to.pereira.9" target="_blank" >
+						<label for="contact-form-name">https://www.facebook.com/to.pereira.9</label>
+					</a>
                 </div>
-                <div class="form-line block">
-					<label for="contact-form-mail" class="infield"><?php echo CONTACT_FORM_LABEL_DATA_MAIL; ?></label>
-                    <input type="text" name="contact-form-mail" id="contact-form-mail" value=""/>	
-                </div>					
-                <div class="form-line block">
-					<label for="contact-form-message" class="infield"><?php echo CONTACT_FORM_LABEL_DATA_MESSAGE; ?></label>
-                    <textarea rows="0" cols="0" name="contact-form-message" id="contact-form-message" ></textarea>	
+                <br/>
+                <div class="form-line block"><img src="./image/social-icon/googleplus.png" width=40 height=40/><br/>
+					<a class="social" href="https://plus.google.com/109182741137860704858/posts" target="_blank">
+						<label for="contact-form-name">https://plus.google.com/109182741137860704858/posts</label>
+					</a>
+                </div><br/>
+                <div class="form-line block"><img src="./image/social-icon/linkedin.png" width=40 height=40 /><br/>
+					<a class="social" href="https://pt.linkedin.com/pub/antónio-pereira/67/a78/a71" target="_blank">
+						<label for="contact-form-name">https://pt.linkedin.com/pub/antónio-pereira/67/a78/a71</label>
+					</a>
                 </div>
-
-                <div class="form-line">
-					<div class="block float-right">
+                <br/>
+                <div class="form-line block"><img src="./image/social-icon/skype.png" width=40 height=40/><br/>
+					<a class="social">
+						<label for="contact-form-name">to.pereira12</label>
+					</a>
+                </div>	
+                <!--div class="form-line">
+					<div class="block float-center">
 						<input type="submit" class="button" id="contact-form-send" value="Enviar"/>
 					</div>
 					<div class="float-right margin-right-10">
 						<input type="reset" class="button" id="contact-form-reset" value="Limpar"/>
 					</div>
-                </div>
+                </div-->
 
             </div>	
-
-        </form>
-
+</center>
     </div>
 
 </div>

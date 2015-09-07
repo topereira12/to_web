@@ -12,6 +12,8 @@
 	.layout-4060-right,
 	.layout-7030-left,
 	.layout-7030-right
+	.layout-2080-left,
+	.layout-2080-right
     { 
 		float:none;
         clear:both;
@@ -19,7 +21,6 @@
 		height:100%;
 		overflow:hidden;
     }
-
     .layout-50-right 
     { 
         margin-top:30px; 
