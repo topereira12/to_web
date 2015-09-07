@@ -27,16 +27,16 @@
             <div>
             	<br/><br/>
 
-                <div class="form-line block box-center" onclick="window.open('https://www.facebook.com/to.pereira.9', '_blank');"><img src="./image/social-icon/facebook.png" width=40 height=40 /><br/>
-					<label for="contact-form-name">Facebook</label>
+                <div class="form-line block box-center pointer" onclick="window.open('https://www.facebook.com/to.pereira.9', '_blank');"><img src="./image/social-icon/facebook.png" width=40 height=40 /><br/>
+					<label for="contact-form-name" class="pointer">Facebook</label>
                 </div>
                 <br/>
-                <div class="form-line block" onclick="window.open('https://plus.google.com/109182741137860704858/posts', '_blank');"><img src="./image/social-icon/googleplus.png" width=40 height=40/><br/>
-					<label for="contact-form-name">Google +</label>
+                <div class="form-line block pointer" onclick="window.open('https://plus.google.com/109182741137860704858/posts', '_blank');"><img src="./image/social-icon/googleplus.png" width=40 height=40/><br/>
+					<label for="contact-form-name" class="pointer">Google +</label>
                 </div>
                 <br/>
-                <div class="form-line block" onclick="window.open('https://pt.linkedin.com/pub/antónio-pereira/67/a78/a71', '_blank');"><img src="./image/social-icon/linkedin.png" width=40 height=40 /><br/>
-     				<label for="contact-form-name">Linkedin</label>
+                <div class="form-line block pointer" onclick="window.open('https://pt.linkedin.com/pub/antónio-pereira/67/a78/a71', '_blank');"><img src="./image/social-icon/linkedin.png" width=40 height=40 /><br/>
+     				<label for="contact-form-name" class="pointer">Linkedin</label>
                 </div>
                 <br/>
                 <div class="form-line block"><img src="./image/social-icon/skype.png" width=40 height=40/><br/>
