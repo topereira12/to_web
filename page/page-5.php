@@ -27,27 +27,20 @@
             <div>
             	<br/><br/>
 
-                <div class="form-line block box-center"><img src="./image/social-icon/facebook.png" width=40 height=40 /><br/>
-					<a class="social" href="https://www.facebook.com/to.pereira.9" target="_blank" >
-						<label for="contact-form-name">https://www.facebook.com/to.pereira.9</label>
-					</a>
+                <div class="form-line block box-center" onclick="window.open('https://www.facebook.com/to.pereira.9', '_blank');"><img src="./image/social-icon/facebook.png" width=40 height=40 /><br/>
+					<label for="contact-form-name">Facebook</label>
                 </div>
                 <br/>
-                <div class="form-line block"><img src="./image/social-icon/googleplus.png" width=40 height=40/><br/>
-					<a class="social" href="https://plus.google.com/109182741137860704858/posts" target="_blank">
-						<label for="contact-form-name">https://plus.google.com/109182741137860704858/posts</label>
-					</a>
-                </div><br/>
-                <div class="form-line block"><img src="./image/social-icon/linkedin.png" width=40 height=40 /><br/>
-					<a class="social" href="https://pt.linkedin.com/pub/antónio-pereira/67/a78/a71" target="_blank">
-						<label for="contact-form-name">https://pt.linkedin.com/pub/antónio-pereira/67/a78/a71</label>
-					</a>
+                <div class="form-line block" onclick="window.open('https://plus.google.com/109182741137860704858/posts', '_blank');"><img src="./image/social-icon/googleplus.png" width=40 height=40/><br/>
+					<label for="contact-form-name">Google +</label>
+                </div>
+                <br/>
+                <div class="form-line block" onclick="window.open('https://pt.linkedin.com/pub/antónio-pereira/67/a78/a71', '_blank');"><img src="./image/social-icon/linkedin.png" width=40 height=40 /><br/>
+     				<label for="contact-form-name">Linkedin</label>
                 </div>
                 <br/>
                 <div class="form-line block"><img src="./image/social-icon/skype.png" width=40 height=40/><br/>
-					<a class="social">
-						<label for="contact-form-name">to.pereira12</label>
-					</a>
+					<label for="contact-form-name">Skype: to.pereira12</label>
                 </div>	
                 <!--div class="form-line">
 					<div class="block float-center">
