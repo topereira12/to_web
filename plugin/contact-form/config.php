@@ -6,7 +6,7 @@
 		define('CONTACT_FORM_SMTP_USER','to.pereira12@gmail.com');
 		define('CONTACT_FORM_SMTP_PORT','465');
 		define('CONTACT_FORM_SMTP_SECURE','ssl');
-		define('CONTACT_FORM_SMTP_PASSWORD','entrar2013');
+		define('CONTACT_FORM_SMTP_PASSWORD','xxxxxxxxx');
 
 		define('CONTACT_FORM_SUBJECT','Cascade: Contact from WWW');
 
