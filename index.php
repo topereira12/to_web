@@ -108,31 +108,31 @@
                 <!-- Box menu -->
                 <ul class="cascade-menu">
                     <li id="tab-1" class="blue-info">
-                        <a href="<?php $Cascade->_getURL('about'); ?>">
+                        <a href="<?php $Cascade->_getURL('inicio'); ?>">
                             <span class="title">Início</span>
                             <span class="subtitle">Quem eu sou</span>
                         </a>
                     </li>
                     <li id="tab-2" class="lime-lightbulb">
-                        <a href="<?php $Cascade->_getURL('portfolio'); ?>">
+                        <a href="<?php $Cascade->_getURL('percurso'); ?>">
                             <span class="title">Percurso </span>
                             <span class="subtitle">Experiência <br/>profissional</span>
                         </a>
                     </li>
                     <li id="tab-3" class="yellow-document">		
-                        <a href="<?php $Cascade->_getURL('resume'); ?>">
+                        <a href="<?php $Cascade->_getURL('formacao'); ?>">
                             <span class="title">Formação</span>
                             <span class="subtitle">Educação e Formação</span>
                         </a>
                     </li>
                     <li id="tab-4" class="green-people">		
-                        <a href="<?php $Cascade->_getURL('interests'); ?>">
+                        <a href="<?php $Cascade->_getURL('hobbys'); ?>">
                             <span class="title">Hobbys</span>
                             <span class="subtitle">Tempos Livres</span>
                         </a>
                     </li>
                     <li id="tab-5" class="red-mail">		
-                        <a href="<?php $Cascade->_getURL('contact'); ?>">
+                        <a href="<?php $Cascade->_getURL('contacto'); ?>">
                             <span class="title">Contacto</span>
                             <span class="subtitle">Onde me encontrar</span>
                         </a>
@@ -145,7 +145,7 @@
 
                     <!-- Close bar -->
                     <div class="cascade-window-close-bar">
-                        <a href="<?php $Cascade->_getURL('main'); ?>"></a>
+                        <a href="<?php $Cascade->_getURL('index'); ?>"></a>
                     </div>
                     <!-- /Close bar -->
 

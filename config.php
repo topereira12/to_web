@@ -14,37 +14,37 @@
 
 		$page=array
 		(
-			'about'				=>   array
+			'inicio'				=>   array
 			(
 				'js'			=>	'page-1.js',
 				'tab'			=>	'tab-1',
 				'html'			=>	'page-10.html',
 				'main'			=>	1,
-				'title'			=>	$title.' - About Page'
+				'title'			=>	$title.' - Início'
 			),
-			'portfolio'			=>   array
+			'percurso'			=>   array
 			(
 				'js'			=>	'page-2.js',
 				'tab'			=>	'tab-2',
 				'html'			=>	'page-2.html',
 				'main'			=>	1,
-				'title'			=>	$title.' - Portfolio Page'
+				'title'			=>	$title.' - Percurso'
 			),
-			'resume'			=>   array
+			'formacao'			=>   array
 			(
 				'js'			=>	'page-3.js',
 				'tab'			=>	'tab-3',
 				'html'			=>	'page-3.html',
 				'main'			=>	0,
-				'title'			=>	$title.' - Resume Page'
+				'title'			=>	$title.' - Formacao'
 			),
-			'interests'			=>   array
+			'hobbys'			=>   array
 			(
 				'js'			=>	'page-4.js',
 				'tab'			=>	'tab-4',
 				'html'			=>	'page-4.html',
 				'main'			=>	1,
-				'title'			=>	$title.' - Interests Page'
+				'title'			=>	$title.' - Hobbys'
 			),
 			'contact'			=>   array
 			(
