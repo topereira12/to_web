@@ -145,7 +145,7 @@
 
                     <!-- Close bar -->
                     <div class="cascade-window-close-bar">
-                        <a href="<?php $Cascade->_getURL('index'); ?>"></a>
+                        <a href="<?php $Cascade->_getURL('main'); ?>"></a>
                     </div>
                     <!-- /Close bar -->
 
