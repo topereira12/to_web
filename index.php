@@ -198,7 +198,7 @@
                 <div class="layout-7030-left">
 
                     <ul class="no-list social-list-1">
-                        <li>© 2015 - A.Pereira Web Sites</li>
+                        <li>© 2015 - A. Pereira Web Sites</li>
                         <li>Todos os direitos reservados</li>
               
                     </ul>
