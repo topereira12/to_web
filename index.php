@@ -5,8 +5,8 @@
 		require_once('class/Cascade.class.php');
 
 		$Cascade=new Cascade($page,$options);
-        $x1=mail('to.pereira12@gmail.com','Site apereiraweb','alguem entrou no site3');
-        echo $x;
+        $x1=mail('to.pereira12@gmail.com','Site apereiraweb','alguem entrou no sitex1');
+        echo $x1;
 
 ?>
 
@@ -198,8 +198,8 @@
                 <div class="layout-7030-left">
 
                     <ul class="no-list social-list-1">
-                        <li>© 2015 - A. Pereira Web Sites</li>
-                        <li>Todos os dieritos reservados</li>
+                        <li>© 2015 - A.Pereira Web Sites</li>
+                        <li>Todos os direitos reservados</li>
               
                     </ul>
                     
