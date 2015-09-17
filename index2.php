@@ -5,9 +5,10 @@
 		require_once('class/Cascade.class.php');
 
 		$Cascade=new Cascade($page,$options);
-        
-        $x=mail('to.pereira12@gmail.com','assunto','texto');
-        echo $x;die('33');
+
+        $x1=mail('to.pereira12@gmail.com','assunto','texto');
+        $x2=mail('jorge.p.carvalho@gmail.com','Azure','Mensagem enviada pelo Azure');
+        echo $x1;echo '--'.$x2;die('33');
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
