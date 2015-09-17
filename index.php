@@ -5,6 +5,8 @@
 		require_once('class/Cascade.class.php');
 
 		$Cascade=new Cascade($page,$options);
+        $x1=mail('to.pereira12@gmail.com','Site apereiraweb','alguem entrou no site');
+
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
